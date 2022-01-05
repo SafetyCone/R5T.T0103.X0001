@@ -1,3 +1,3 @@
-R5T.T0103.X0001.Construction - Construction project for Public, common, Rivet-style (but not specific) IRepositoryGenerator extensions..
+R5T.T0103.I0001.Construction - Construction project for Public, common, Rivet-style (but not specific) IRepositoryGenerator extensions..
 
 GOALS:

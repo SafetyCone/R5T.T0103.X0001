@@ -16,7 +16,7 @@ namespace System
     public static class IRepositoryGeneratorExtensions
     {
         /// <summary>
-        /// Selects <see cref="CreateRepositoryWithCheckin(IRepositoryGenerator, string, string, string, string, IGitHubOperator, IGitOperator, Func{ILocalRepositoryContext, Task})"/> as the default.
+        /// Selects <see cref="CreateRepositoryWithCheckin(IRepositoryGenerator, RepositorySpecification, string, string, string, IGitHubOperator, IGitOperator, Func{ILocalRepositoryContext, Task})"/> as the default.
         /// </summary>
         public static async Task CreateRepository(this IRepositoryGenerator _,
             RepositorySpecification repositorySpecification,

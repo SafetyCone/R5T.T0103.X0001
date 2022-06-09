@@ -22,7 +22,7 @@ namespace System
 
             if (repositoryExists)
             {
-                await gitHubOperator.DeleteRepositoryNonIdempotent(
+                await gitHubOperator.DeleteRepository_NonIdempotent(
                     Instances.GitHubOrganization.SafetyCone(),
                     repositoryName);
 
